@@ -1,5 +1,7 @@
 Nama    : Andi Aliyah Nur Inayah Pattoza
+
 NRP     : 5025221196
+
 Kelas   : Keamanan Informasi (A)
 
 ## Tugas 3
@@ -11,16 +13,13 @@ Program ini merupakan implementasi sederhana yang menggabungkan algoritma enkrip
 ### Fitur
 
 - RSA untuk Pertukaran Kunci:
-
-RSA digunakan untuk mengenkripsi kunci DES sebelum dikirim antara client dan server. Public key RSA server dikirim ke client, dan client menggunakan kunci tersebut untuk mengenkripsi kunci DES yang kemudian dikirim ke server.
+  RSA digunakan untuk mengenkripsi kunci DES sebelum dikirim antara client dan server. Public key RSA server dikirim ke client, dan client menggunakan kunci tersebut untuk mengenkripsi kunci DES yang kemudian dikirim ke server.
 
 - DES untuk Enkripsi Pesan:
-
-Setelah kunci DES dibagikan, pesan-pesan selanjutnya dienkripsi dan didekripsi menggunakan algoritma DES. Proses ini memastikan komunikasi yang aman antara client dan server.
+  Setelah kunci DES dibagikan, pesan-pesan selanjutnya dienkripsi dan didekripsi menggunakan algoritma DES. Proses ini memastikan komunikasi yang aman antara client dan server.
 
 - Komunikasi Client-Server:
-
-Client dan server saling bertukar pesan melalui socket. Setiap pesan yang dikirim dienkripsi menggunakan DES dan setiap balasan yang diterima didekripsi menggunakan kunci yang sama.
+  Client dan server saling bertukar pesan melalui socket. Setiap pesan yang dikirim dienkripsi menggunakan DES dan setiap balasan yang diterima didekripsi menggunakan kunci yang sama.
 
 ### Alur Program:
 
